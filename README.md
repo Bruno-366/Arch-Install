@@ -1,4 +1,4 @@
-# Misc-Scripts
+# Arch & Gentoo Quick Install
 [url1]: https://wiki.archlinux.org/index.php/Installation_guide
 [url2]: https://wiki.gentoo.org/wiki/Handbook:Main_Page
 
@@ -13,11 +13,12 @@ Please only use if:
 
 NOTE: Partitioning and formatting isn't covered yet, as screwing that up is a big no no.
 
+## Goals
 
 I still don't have the use case for these scripts well defined,
 so it may evolve with time, but this is what I'm trying to accomplish:
 
-## Clarity and Sanity
+### Clarity and Sanity
 Currently the top priority is clarity, after that its sanity.
 For example:
 while `wifi-menu` is easier to use,
@@ -34,7 +35,7 @@ Understand Consequences of:
   2.  and logging out inbetween functions
 
 
-## Finish the installation in a minimal fashion.
+### Finish the installation in a minimal fashion.
 Try to get a bootable installation as quickly as possible.
 Before when I was using Arch, I would try to get everything (ie a Desktop Enviroment) installed with pacstrap.
 It felt great booting into your system for the first time, and not being greeted by a console demanding more work.
