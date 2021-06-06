@@ -39,7 +39,7 @@ Understand Consequences of:
 Try to get a bootable installation as quickly as possible.
 Before when I was using Arch, I would try to get everything (ie a Desktop Enviroment) installed with pacstrap.
 It felt great booting into your system for the first time, and not being greeted by a console demanding more work.
-However if your using source-based distros this will diffentively not scale.
+However if you're using a source-based distros this will diffentively not scale.
 So in order to maintain an uniform structure, the installation of things not required to boot will not be included.
 
 #### Other things might be removed
