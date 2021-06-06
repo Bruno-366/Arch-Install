@@ -27,7 +27,7 @@ if the corresponding variable was empty.
 I encountered 3 problems.
 
 ## Problem 1
-How know if a variable is empty.
+How to know if a variable is empty.
 I could probably have used some sort of loop,
 inside of which I used `-z "$var"`.
 However, what I would have prefered is the following:
@@ -37,12 +37,12 @@ However, what I would have prefered is the following:
 
 Despite that,
 I didn't like the idea of having an extra script which handles other scripts.
-I've tried that sort of meta-script thing before, and it was non-elegant.
+I've tried that sort of meta-script thing before, and it wasn't elegant.
 
 ## Solution?
 The idea was to have `Settings.txt` by default get all values from the scripts,
 That is,
-for all all the variables it would contain something like `var=$(script)`.
+for all the variables it would contain something like `var=$(script)`.
 That way,
 if someone wanted to provide their own values,
 they would have to change that text.
