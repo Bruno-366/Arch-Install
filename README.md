@@ -64,11 +64,11 @@ So in order to maintain an uniform structure, the installation of things not req
 # Achtung!
 Please only use if:
 
-1. You have already done non-graphical installations a few times.
-2. You're comfortable with using scripts that are:
+- You have already done non-graphical installations a few times.
+- You're comfortable with using scripts that are:
   - a work in progress
   - from someone random on the internet
-3. You are comfortable debugging bash scripts
+- You are comfortable debugging bash scripts
 
 
 [url1]: https://wiki.archlinux.org/index.php/Installation_guide
