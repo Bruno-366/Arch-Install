@@ -3,6 +3,12 @@ Contains installations scripts for [Arch Linux][url1] and [Gentoo][url2].
 The files-names are intended to be rather self-explanatory, and should give you a good overview of what the scope of this project is.
 You are most welcome to take a peek at the scripts to see what they're actually doing too!
 
+1. [Start_WiFi.sh]
+2. Partitioning and formatting
+3. [Base_Arch.sh] / [Base_Gentoo.sh]
+4. [Chroots.sh]
+5. [Inside_Arch.sh] / [Inside_Gentoo.sh]
+
 **Note:** Partitioning and formatting isn't covered yet, as screwing that up is a big no no.
 I recommend using [GParted][url3] to partition your disk, or using the tools included in the live-USB of the distro you're trying to install.
 
@@ -40,8 +46,8 @@ and prefer using `wpa_supplicant` directly instead.
 
 TODO: Understand consequences of:
 
--[] Repeating an `installation_step` several times. Does it break anything?
--[] Difference between:
+- [ ] Repeating an `installation_step` several times. Does it break anything?
+- [ ] Difference between:
   1.  doing all in one session,
   2.  and logging out in-between functions
 
@@ -74,3 +80,12 @@ Please only use if:
 [url1]: https://wiki.archlinux.org/index.php/Installation_guide
 [url2]: https://wiki.gentoo.org/wiki/Handbook:Main_Page
 [url3]: http://gparted.org/livecd.php
+
+
+[Start_WiFi.sh]: ./1-Start_WiFi.sh
+[Base_Arch.sh]: ./3-Base_Arch.sh
+[Base_Gentoo.sh]: ./3-Base_Gentoo.sh
+[Chroots.sh]: ./4-Chroots.sh
+[Inside_Arch.sh]: ./5-Inside_Arch.sh
+[Inside_Gentoo.sh]: ./5-Inside_Gentoo.sh
+
