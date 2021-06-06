@@ -29,7 +29,7 @@ Maybe with each script include a `.txt` file explaining commands and their flags
 
 Understand Consequences of:
 
-- Reapeting an `installation_step` several times. Does it break anything?
+- Repeating an `installation_step` several times. Does it break anything?
 - Difference between:
   1.  doing all in one session,
   2.  and logging out inbetween functions
